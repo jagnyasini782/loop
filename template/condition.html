@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=(device-width), initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+
+ <!--syntax for simple if condition-->
+
+            <!--{% if age > 18 %}
+                <h1>eligible for voting </h1>
+            {% endif %}-->
+
+
+<!--syntax for if- elif condition-->
+
+         <!-- {% if age < 18 %}
+                <h1>Child marriage</h1>
+            {% elif age > 18 and age < 30 %}
+                <h1>Legal marriage</h1>
+            {% elif age > 30 and age < 45 %}
+                <h1>Illegal marriage</h1>
+            {% endif %}-->
+
+
+<!--syntax for nested-if condition:-->
+
+            <!--{% if age < 18 %}
+                {% if age > 18 %}
+                    <h1>ram is tall</h1>
+                {% else %}
+                    <h1>sam is tall</h1>
+                {% endif %}
+            {% else %}
+                {% if age > 18 and age < 30 %}
+                    <h1>sita is small</h1>
+                {% else %}
+                    <h1>mita is small</h1>
+                {% endif %}
+            {% endif %}-->
+
+
+<!--syntax for simple if-elif-else condition-->
+
+            <!--{% if age < 18 %}
+                <h1>ram is a boy</h1>
+            {% elif age > 19 and  age < 25 %}
+                <h1>sam is a boy</h1>
+            {% else %}
+                <h1>hari is a boy</h1>
+            {% endif %}-->
+
+
+<!--syntax for loop with CDT-->
+            {% for var in name %}
+                <h1>{{ var }}</h1>
+            {% endfor %}
+
+
+
+
+        </center>
+    
+</body>
+</html>
